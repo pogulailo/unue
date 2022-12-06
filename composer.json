@@ -1,0 +1,21 @@
+{
+    "name": "pogulailo/unue",
+    "description": "Unused PHP code detector library",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Pogulailo\\Unue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrii Pohuliailo",
+            "email": "pogulailo.a@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-pcov": "*"
+    }
+}
